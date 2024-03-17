@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rest_with_spring_boot_erudio
+    username: postgres
+    password: postgre
+  jpa:
+    hibernate:
+      ddl-auto: update
+      #dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: false
+    open-in-view: false
